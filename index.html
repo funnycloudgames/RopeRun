@@ -84,21 +84,7 @@
       document.body.appendChild(script);
         
     </script>  
-      <script>
-  vkBridge.send("VKWebAppInit", {});
-          bridge.send('VKWebAppShowBannerAd', {
-  banner_location: 'bottom'
-  })
- .then((data) => { 
-    if (data.result) {
-      // Баннерная реклама отобразилась
-    }
-  })
-  .catch((error) => {
-    // Ошибка
-    console.log(error);
-  });
-</script>
+
       
   </body>
 </html>
